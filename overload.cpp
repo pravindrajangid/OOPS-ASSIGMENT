@@ -1,43 +1,6 @@
 include <iostream>
 using namespace std;
 
-class SimpleInterest
-{
-public:
-    // Function with default arguments
-    float calculate(float p, float r = 5, float t = 2)
-    {
-        return (p * r * t) / 100;
-    }
-};
-
-int main()
-{
-    SimpleInterest obj;
-
-    // Using default rate and time
-    cout << "Simple Interest = "
-         << obj.calculate(1000) << endl;
-
-    // Providing rate only
-    cout << "Simple Interest = "
-         << obj.calculate(1000, 7) << endl;
-
-    // Providing rate and time
-    cout << "Simple Interest = "
-         << obj.calculate(1000, 7, 4) << endl;
-
-    return 0;
-}
-Output :
- 
-GitHub :
-https://github.com/Abhaysingla637/OOPS_Assignment/blob/main/2.Def_Arg.cpp
-Program 3. WAP to demonstrate function overloading for area, sum, and volume calculations.
-//Author- Abhay Singla/241461
-#include <iostream>
-using namespace std;
-
 class Calculation
 {
 public:
